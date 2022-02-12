@@ -1,0 +1,20 @@
+.fromsanjarforyou {
+	height: 160px;
+	width: 100px;
+	background: #FF0800;
+	border-radius: 200px 200px 0 0;
+	transform: rotate(45deg);
+
+}
+
+.fromsanjarforyou::before {
+	content: "";
+	position: absolute;
+	background: #FF0800;
+	height: 160px;
+	width: 100px;
+	transform: rotate(-90deg);
+	border-radius: 200px 200px 0 0;
+	left: -30px;
+	top: 30px;
+}
